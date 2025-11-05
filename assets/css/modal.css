@@ -1,0 +1,79 @@
+.modal-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    z-index: 6;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
+    opacity: 0;
+    pointer-events: none;
+    transition: all .3s ease;
+}
+
+.modal {
+    width: 90%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 500px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    border: none;
+}
+
+.modal .info-modal {
+    display: flex;
+    flex-direction: column;
+}
+
+.modal .info-modal h3 {
+    font-size: 1.8rem;
+}
+
+.modal .info-modal span {
+    font-size: .9rem;
+}
+
+.modal form {
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+
+.modal .new-user {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal .new-user span a:hover {
+    color: #000;
+}
+
+.btn-close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-close img {
+    width: 25px;
+    height: 25px;
+}
+
+.show-modal {
+    opacity: 1;
+    pointer-events: all;
+}

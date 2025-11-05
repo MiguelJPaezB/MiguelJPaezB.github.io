@@ -1,0 +1,14 @@
+[
+  {
+    "banner": "banner-1.jpg",
+    "title": "Hello World",
+    "description": "Este es mi primer post en el blog, donde explico cómo iniciar un proyecto web.",
+    "file": "hello-world.html"
+  },
+  {
+    "banner": "banner-2.jpg",
+    "title": "Automatización con JavaScript",
+    "description": "Aprende a automatizar tareas del navegador con JS de forma sencilla.",
+    "file": "automatizacion-js.html"
+  }
+]

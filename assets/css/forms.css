@@ -1,0 +1,33 @@
+.input-field {
+    width: 100%;
+    display: flex;
+    gap: 4px;
+    flex-direction: column;
+}
+
+.input-checkbox {
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+}
+
+input, select {
+    width: 100%;
+    padding: 8px;
+    font-size: 1.1rem;
+    border: 1px solid rgba(190, 190, 190, 0.5);
+    border-radius: 6px;
+}
+
+input[type="submit"] {
+    margin-top: 10px;
+    border: none;
+    color: #fff;
+    background-color: #0056a4;
+    font-size: 1.2rem;
+    font-weight: 400;
+    cursor: pointer;
+    opacity: 1;
+    transition: opacity .2s ease;
+}

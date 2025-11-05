@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/forms.css">
+    <link rel="stylesheet" href="assets/css/modal.css">
+    <title>Blog Platform</title>
+</head>
+<body>
+    <div class="topbar">
+        <a href="." class="logo">Blog Platform</a>
+        <div class="menu">
+            <a href="blog.html">Blog</a>
+            <a href="#" data-modal="login">Login</a>
+            <a href="#" data-modal="signup">Sign Up</a>
+        </div>
+    </div>
+    <section class="column col-1">
+        <h2>Welcome to Our Blog Platform</h2>
+        <span>Discover insightful articles, stories, and ideas from our community of writers. Join us to share your thoughts and connect with readers around the world.</span>
+        <div class="content-btn">
+            <a href="#" class="btn btn-1">Explore Blog</a>
+            <button class="btn btn-2" data-modal="signup">Get Started</button>
+        </div>
+    </section>
+
+    <section class="col-1 recent-posts">
+        <h2>Recent Posts</h2>
+        <div id="recent-posts" class="column col-3">
+            
+        </div>
+    </section>
+
+    <div class="footer">
+        <div class="column col-1">
+            <h3>Why Choose Our Platform?</h3>
+            <span>Everything you need to share your stories and ideas</span>
+        </div>
+        <div class="column col-3">
+            <div class="card">
+                <img src="assets/img/icon_easy_writing.svg" alt="icon" class="icon">
+                <h4>Easy Writing</h4>
+                <span>Simple and intuitive interface for creating and publishing your content</span>
+            </div>
+            
+            <div class="card">
+                <img src="assets/img/icon_community.svg" alt="icon" class="icon">
+                <h4>Community</h4>
+                <span>Connect with readers and writers through comments and discussions</span>
+            </div>
+            
+            <div class="card">
+                <img src="assets/img/icon_secure.svg" alt="icon" class="icon">
+                <h4>Secure</h4>
+                <span>Role-based access control and moderation tools to keep your content safe</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer footer-2">
+        <div class="column col-3">
+            <div class="card">
+                <h4>About</h4>
+                <span>A modern blog platform built with Next.js and Supabase, featuring role-based access control and a powerful admin dashboard.</span>
+            </div>
+            <div class="card">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><button data-modal="login">Login</button></li>
+                    <li><button data-modal="signup">Sign Up</button></li>
+                </ul>
+            </div>
+            <div class="card">
+                <h4>Contact</h4>
+                <span>Have questions? Reach out to us at <a href="mailto:miguel_jpaezb@soy.sena.edu.co">miguel_jpaezb@soy.sena.edu.co</a></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer footer-3">
+        <div class="column col-1">
+            <span>© 2025 Blog Platform. All rights reserved.</span>
+        </div>
+    </div>
+
+    <div class="modal-container" id="modal-login">
+        <div class="modal">
+            <button class="btn-close"><img src="assets/img/btn_close.svg" alt="X"></button>
+            <div class="info-modal">
+                <h3>Login</h3>
+                <span>Enter your email and password to access your account</span>
+            </div>
+            <form action="#" method="post">
+                <div class="input-field">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" placeholder="user@example.com">
+                </div>
+                <div class="input-field">
+                    <label for="pass">Password</label>
+                    <input type="password" name="pass" id="pass" placeholder="******************">
+                </div>
+                <input type="submit" name="log-in" value="Log In" disabled>
+            </form>
+            <div class="new-user">
+                <span>Don't have an account? <a href="#">Sign Up</a></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal-container" id="modal-sign-up">
+        <div class="modal">
+            <button class="btn-close"><img src="assets/img/btn_close.svg" alt="X"></button>
+            <div class="info-modal">
+                <h3>Sign Up</h3>
+                <span>Create a new account to get started</span>
+            </div>
+            <form action="#" method="post">
+                <div class="input-field">
+                    <label for="name">Display name</label>
+                    <input type="text" name="name" id="name" placeholder="John Doe">
+                </div>
+                <div class="input-field">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" placeholder="user@example.com">
+                </div>
+                <div class="input-field">
+                    <label for="pass">Password</label>
+                    <input type="password" name="pass" id="pass" placeholder="******************">
+                </div>
+                <div class="input-field">
+                    <label for="repeat-pass">Repeat Password</label>
+                    <input type="password" name="repeat-pass" id="repeat-pass" placeholder="******************">
+                </div>
+                <input type="submit" name="log-in" value="Sign Up" disabled>
+            </form>
+            <div class="new-user">
+                <span>Already have an account? <a href="#">Login</a></span>
+            </div>
+        </div>
+    </div>
+
+    <script src="assets/js/modal.js"></script>
+    <script src="assets/js/recent-posts.js"></script>
+</body>
+</html>
