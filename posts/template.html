@@ -3,10 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="assets/img/icon-blog.svg" type="image/x-icon">
-    <link rel="stylesheet" href="assets/css/main.css">
-    <link rel="stylesheet" href="assets/css/forms.css">
-    <title>LearningBits - Blog</title>
+    <link rel="shortcut icon" href="../assets/img/icon-blog.svg" type="image/x-icon">
+    <link rel="stylesheet" href="../assets/css/main.css">
+    <link rel="stylesheet" href="../assets/css/forms.css">
+    <link rel="stylesheet" href="../assets/css/post.css">
+    <title>Template</title>
 </head>
 <body>
     <div class="topbar">
@@ -16,13 +17,21 @@
         </div>
     </div>
 
-    <section class="col-1 recent-posts">
-        <h2>Posts</h2>
-        <div id="posts-container" class="posts">
-            <!-- Aquí se insertarán las tarjetas dinámicamente -->
-        </div>        
+    <section class="main">
+        
+
+        <!-- Nav posts -->
+        <div class="post-row one-column">
+            <div class="post-item">
+                <div class="nav-post">
+                    <a href="#" class="previous-post-link">Previous  posts</a>
+                    <a href="#" class="next-post-link">Next post</a>
+                </div>
+            </div>
+        </div>
     </section>
 
+    
     <div class="footer footer-2" style="border: none;">
         <div class="column col-3">
             <div class="card">
@@ -32,8 +41,8 @@
             <div class="card">
                 <h4>Quick Links</h4>
                 <ul>
-                    <li><a href=".">Home</a></li>
-                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="../">Home</a></li>
+                    <li><a href="../blog.html">Blog</a></li>
                 </ul>
             </div>
             <div class="card">
@@ -49,8 +58,7 @@
         </div>
     </div>
 
-    <script src="assets/js/blog.js"></script>
-    <script src="assets/js/navigation.js"></script>
-
+    <script src="../assets/js/nav-posts.js"></script>
+    <script src="../assets/js/navigation.js"></script>
 </body>
 </html>

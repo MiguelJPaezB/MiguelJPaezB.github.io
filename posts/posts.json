@@ -7,8 +7,8 @@
   },
   {
     "banner": "banner-2.jpg",
-    "title": "Automatización con JavaScript",
-    "description": "Aprende a automatizar tareas del navegador con JS de forma sencilla.",
-    "file": "automatizacion-js.html"
+    "title": "Template",
+    "description": "This is a test post.",
+    "file": "template.html"
   }
 ]
