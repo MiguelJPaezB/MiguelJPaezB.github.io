@@ -84,10 +84,27 @@
 
 .post-item img {
   width: 100%;
+  max-width: 450px;
   height: auto;
   margin: 10px 0;
   border-radius: 6px;
   object-fit: cover;
+}
+
+.post-item.img-item {
+  display: flex;
+  align-items: center;
+}
+
+.post-item .banner {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.post-item .banner .main-img {
+  width: 750px;
 }
 
 .video-container {
@@ -103,6 +120,24 @@
     border: none;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.25);
+}
+
+.audio-container {
+  margin-top: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.audio-container audio {
+  width: 90%;
+  border: none;
+  border-radius: 8px;
+}
+
+.post-item .author {
+  margin-top: 20px;
 }
 
 .nav-post {

@@ -197,7 +197,7 @@ ul li button:hover {
     text-decoration: none;
     padding: 10px;
     border-radius: 8px;
-    max-width: 500px;
+    max-width: 400px;
     border: none;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
     display: flex;
