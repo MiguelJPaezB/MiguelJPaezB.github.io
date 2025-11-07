@@ -31,6 +31,8 @@ html {
 }
 
 .topbar a.logo {
+    color: #0056a4;
+    font-weight: 700;
     font-size: 1.4rem;
 }
 
