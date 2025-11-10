@@ -1,14 +1,9 @@
 [
   {
-    "banner": "banner-1.jpg",
-    "title": "Hello World",
-    "description": "Este es mi primer post en el blog, donde explico cómo iniciar un proyecto web.",
-    "file": "hello-world.html"
-  },
-  {
-    "banner": "banner-2.jpg",
-    "title": "Template",
-    "description": "This is a test post.",
-    "file": "template.html"
+    "banner": "my-family.jpg",
+    "resources": "family-hobbies",
+    "title": "My Family and Hobbies",
+    "description": "In this post, I talk about my family, my favorite hobbies, and how these activities help me relax and keep learning English.",
+    "file": "family-hobbies.html"
   }
 ]

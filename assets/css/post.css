@@ -96,15 +96,11 @@
   align-items: center;
 }
 
-.post-item .banner {
+.post-item .main-img {
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-.post-item .banner .main-img {
-  width: 750px;
 }
 
 .video-container {
