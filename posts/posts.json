@@ -5,5 +5,12 @@
     "title": "My Family and Hobbies",
     "description": "In this post, I talk about my family, my favorite hobbies, and how these activities help me relax and keep learning English.",
     "file": "family-hobbies.html"
+  },
+  {
+    "banner": "my-work-and-study-life.png",
+    "resources": "my-work-and-study-life",
+    "title": "My Work and Study Life",
+    "description": "In this post, I talk about my daily routine balancing my job, freelance projects, and studies, and how English is part of my professional life.",
+    "file": "my-work-and-study-life.html"
   }
 ]
