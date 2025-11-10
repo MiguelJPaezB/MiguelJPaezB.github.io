@@ -91,9 +91,10 @@
   object-fit: cover;
 }
 
-.post-item.img-item {
+.post-item.post-img-item {
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 .post-item .main-img {
