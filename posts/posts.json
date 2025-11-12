@@ -19,5 +19,13 @@
     "title": "A Trip to a Beautiful Place in My Region",
     "description": "In this post, I share my experience visiting a wonderful place in my region, where I enjoyed nature, family time, and local traditions.",
     "file": "trip-to-beautiful-place.html"
+  },
+  {
+    "banner": "banner-current-event.jpg",
+    "resources": "current-event",
+    "title": "Media literacy through social networks",
+    "description": "In this post, I talk about a current event that caught my attention and share my thoughts on how technology and social media impact the way we receive information.",
+    "file": "current-event.html"
   }
+
 ]
