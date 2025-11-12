@@ -21,11 +21,18 @@
     "file": "trip-to-beautiful-place.html"
   },
   {
-    "banner": "banner-current-event.jpg",
+    "banner": "banner-current-event.png",
     "resources": "current-event",
-    "title": "Media literacy through social networks",
-    "description": "In this post, I talk about a current event that caught my attention and share my thoughts on how technology and social media impact the way we receive information.",
+    "title": "The Loss of Human Connection Due to Excessive Technology Use",
+    "description": "In this post, I reflect on how technology, while useful, is slowly reducing face-to-face interaction and emotional connection between people.",
     "file": "current-event.html"
+  },
+  {
+    "banner": "banner-critical-thinking.png",
+    "resources": "critical-thinking",
+    "title": "Critical Thinking and Media Literacy",
+    "description": "In this post, I reflect on how critical thinking and media literacy help us understand and question the information we consume every day.",
+    "file": "critical-thinking.html"
   }
 
 ]
