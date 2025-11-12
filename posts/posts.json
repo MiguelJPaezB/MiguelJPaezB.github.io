@@ -15,7 +15,7 @@
   },
   {
     "banner": "banner-trip-region.jpg",
-    "resources": "banner-trip-region",
+    "resources": "trip-region",
     "title": "A Trip to a Beautiful Place in My Region",
     "description": "In this post, I share my experience visiting a wonderful place in my region, where I enjoyed nature, family time, and local traditions.",
     "file": "trip-to-beautiful-place.html"
